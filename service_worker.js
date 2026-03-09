@@ -176,7 +176,7 @@ browser.runtime.onMessage.addListener(async function(request) {
   }
 
   if (request.action === "openLicensePage") {
-    await browser.tabs.create({ url: browser.runtime.getURL("license.html") });
+    await browser.tabs.create({ url: browser.runtime.getURL("options/license.html") });
     return { status: "Opened license page" };
   }
 

@@ -33,7 +33,7 @@ From Options, you can choose one default action:
 - `service_worker.js` - background logic for all tab actions
 - `popup/` - popup UI and behavior
 - `options/` - options UI and behavior
-- `license.html` / `license.js` - in-extension license viewer
+- `options/license.html` / `options/license.js` - in-extension license viewer
 - `_locales/en/messages.json` - i18n messages
 - `icons/` - extension icons (SVG + PNG)
 - `Third-party-icons/` - third-party theme icons + license

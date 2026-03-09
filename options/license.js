@@ -64,8 +64,8 @@ async function loadText(path, targetId) {
 document.addEventListener('DOMContentLoaded', () => {
   applyI18n();
   restoreTheme();
-  loadText('./LICENSE', 'projectLicense');
-  loadText('./THIRD_PARTY_LICENSES.md', 'thirdPartyLicenses');
+  loadText('../LICENSE', 'projectLicense');
+  loadText('../THIRD_PARTY_LICENSES.md', 'thirdPartyLicenses');
 
   browser.storage.onChanged.addListener((changes, areaName) => {
     if (areaName !== 'local' || !changes[THEME_KEY]) {
