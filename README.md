@@ -1,5 +1,9 @@
 # All Tabs Closure
 
+<p align="center">
+  <img src="icons/icon128.png" alt="All Tabs Closure Icon" width="96" height="96">
+</p>
+
 All Tabs Closure is a Firefox extension that lets you run configurable tab-management actions from a single popup button.
 
 ## Features
